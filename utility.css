@@ -1,0 +1,115 @@
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.bg-grey {
+  background-color: #121212;
+}
+
+.rounded {
+  border-radius: 7px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+/* For modern browsers */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  /* Dark background for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  /* Gray scrollbar thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+  /* Lighter on hover */
+}
+
+/* Optional: for horizontal scrollbars */
+::-webkit-scrollbar-horizontal {
+  height: 6px;
+}
+
+#volrange {
+  -webkit-appearance: none;
+  width: 120px;
+  height: 4px;
+  background: #4a1717;
+  /* fallback for older browsers */
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Track */
+#volrange::-webkit-slider-runnable-track {
+  height: 8px;
+  background: #b95b1d;
+  /* Spotify green */
+  border-radius: 10px;
+}
+
+/* Thumb */
+#volrange::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 18px;
+  width: 18px;
+  background: white;
+  border: 2px solid #b97b1d;
+  border-radius: 50%;
+  margin-top: -5px;
+  /* center thumb */
+  cursor: pointer;
+}
+
+/* Firefox */
+#volrange::-moz-range-track {
+  background: #479c65;
+  height: 4px;
+  border-radius: 10px;
+}
+
+#volrange::-moz-range-thumb {
+  background: white;
+  border: 2px solid #234630;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
